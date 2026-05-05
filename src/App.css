@@ -462,7 +462,7 @@
 }
 
 .polaroid:hover .polaroid-img {
-  filter: saturate(1.05) contrast(1.06) brightness(1.03);
+  filter: none;
 }
 
 /* ── Polaroid Card ── */
@@ -1042,15 +1042,15 @@
 }
 
 .letter-tofu-photo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
   object-fit: cover;
+  object-position: center top;
   border: 3px solid rgba(212, 165, 116, 0.4);
   box-shadow:
     0 4px 20px rgba(0, 0, 0, 0.15),
     0 0 0 6px rgba(253, 248, 240, 0.8);
-  animation: heartPulse 3s ease-in-out 2s infinite;
 }
 
 .letter-sign-area .letter-sign {
